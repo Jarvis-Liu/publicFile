@@ -1,0 +1,8 @@
+table.list td {
+  height: 40px;
+}
+
+table.list .priority {
+  background: rgba(185,28,28,0.1);
+  color: rgb(185,28,28)
+}
