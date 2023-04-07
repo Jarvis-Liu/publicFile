@@ -1,0 +1,87 @@
+table.list td {
+  height: 40px;
+}
+
+table.list td.priority,table.list td.status {
+  text-align: center;
+}
+
+table.list td.status {
+  width: 60px;
+}
+
+table.list td.priority > div,table.list td.status > div {
+  display: inline-block;
+  width: 90%;
+  height: 20px;
+  line-height: 20px;
+  padding: 2px;
+  border-radius: 10px;
+}
+
+table.list td.priority .lv1 {
+  color: #7262fd;
+  background: #D3CEFD;
+}
+
+table.list td.priority .lv2 {
+  color: #b91c1c;
+  background: #fee2e2;
+}
+
+table.list td.priority .lv3 {
+  color: #b45309;
+  background: #fef3c7;
+}
+
+
+table.list td.status .lv1 {
+  color: #fff;
+  background: #4f46e5;
+}
+
+table.list td.status .lv2 {
+  color: #409eff;
+  background: #ecf5ff;
+}
+
+table.list td.status .lv3 {
+  background: linear-gradient(45deg,#61DDAA 25%, #61DDAA 25%, #5B8FF9 25%, #5B8FF9 50%, #61DDAA 50%, #61DDAA 75%, #5B8FF9 75%, #5B8FF9 100%);
+  animation: animate_6810 15s linear infinite;
+  transition: .3s;
+  background-size: 60px 60px;
+  position: relative;
+  overflow: visible;
+  border-radius: 20px;
+}
+
+table.list td.status .lv3-info {
+  position: absolute;
+  width: 96%;
+  height: 96%;
+  left: 2%;
+  top: 2%;
+  background-color: #fff;
+  border-radius: 20px;
+  transition: .3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+table.list td.status .lv4 {
+  color: #047857;
+    background: #d1fae5;
+}
+
+@keyframes animate_6810 {
+  0% {
+    background-position: 0px;
+  }
+
+  100% {
+    background-position: 1000px;
+  }
+}
+
+
