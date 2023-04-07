@@ -7,7 +7,7 @@ table.list td.priority,table.list td.status {
 }
 
 table.list td.status {
-  width: 60px;
+  width: 90px;
 }
 
 table.list td.priority > div,table.list td.status > div {
@@ -57,16 +57,17 @@ table.list td.status .lv3 {
 
 table.list td.status .lv3-info {
   position: absolute;
-  width: 96%;
-  height: 96%;
-  left: 2%;
-  top: 2%;
-  background-color: #fff;
-  border-radius: 20px;
-  transition: .3s;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+    width: 96%;
+    height: 96%;
+    left: 2%;
+    top: 2%;
+    background-color: #ecf5ff;
+    border-radius: 20px;
+    transition: .3s;
+    display: flex;
+    align-items: center;
+    color: #409eff;
+    justify-content: center;
 }
 
 table.list td.status .lv4 {
