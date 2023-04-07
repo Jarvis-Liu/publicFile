@@ -3,7 +3,10 @@ table.list td {
 }
 
 table.list td.priority,table.list td.status {
-  position:relative;
+  /* position:relative; */
+  /* display: flex;
+  justify-content: center; */
+  text-align: center;
 }
 
 table.list td.status {
@@ -12,14 +15,14 @@ table.list td.status {
 
 table.list td.priority span,table.list td.status span {
   display: block;
-  position: absolute;
+  /* position: absolute; */
   width: 90%;
   height: 20px;
   line-height: 20px;
   padding: 2px;
-  top: 50%;
+  /* top: 50%; */
   border-radius: 10px;
-  transform: translateY(-50%);
+  /* transform: translateY(-50%); */
 }
 
 table.list td.priority .lv1 {
@@ -39,8 +42,8 @@ table.list td.priority .lv3 {
 
 
 table.list td.status .lv1 {
-  color: #047857;
-    background: #d1fae5;
+  color: #fff;
+  background: #4f46e5;
 }
 
 table.list td.status .lv2 {
@@ -52,4 +55,10 @@ table.list td.status .lv3 {
   color: #909399;
   background: #f4f4f4;
 }
+
+table.list td.status .lv4 {
+  color: #047857;
+    background: #d1fae5;
+}
+
 
