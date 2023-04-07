@@ -16,17 +16,17 @@ table.list td.priority span {
     transform: translateY(-50%);
 }
 
-table.list td.priority.lv1 {
+table.list td.priority .lv1 {
   color: #b91c1c;
   background: #fee2e2;
 }
 
-table.list td.priority.lv2 {
+table.list td.priority .lv2 {
   color: #b45309;
   background: #fef3c7;
 }
 
-table.list td.priority.lv3 {
+table.list td.priority .lv3 {
   color: #fff;
   background: #909399;
 }
